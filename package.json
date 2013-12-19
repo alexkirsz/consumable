@@ -1,0 +1,25 @@
+{
+  "name": "consumable",
+  "description": "A buffer wrapper that makes it easier to consume binary data",
+  "author": "Alexandre Kirszenberg <a.kirszenberg@gmail.com>",
+  "version": "0.0.1",
+
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:morhaus/consumable.git"
+  },
+
+  "main": "./lib/consumable.js",
+
+  "scripts": {
+    "pre-publish": "grunt"
+  },
+
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-cli": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-coffee": "*",
+    "grunt-contrib-clean": "*"
+  }
+}
